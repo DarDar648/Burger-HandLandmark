@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Global Resource
   - Item
+  - Tomato
+  - Onion
+  - Patty
   layers:
   - Default
   - TransparentFX

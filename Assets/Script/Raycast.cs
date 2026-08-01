@@ -48,7 +48,7 @@ public class MiddlePoint : MonoBehaviour
     {
         if (Objek == null)
         {
-            if (other.CompareTag("Item"))
+            if (!other.CompareTag("Respawn"))
             {
                 Objek = other.transform;
             }
