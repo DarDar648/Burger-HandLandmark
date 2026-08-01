@@ -10,11 +10,9 @@ public class Mix : MonoBehaviour
 
     public Vector3 spawnScale = new Vector3(5f, 5f, 5f);
 
-    private bool crafted = false;
 
     private void Update()
     {
-        if (crafted) return;
 
         Collider[] hits = Physics.OverlapBox(
             transform.position,
@@ -51,7 +49,6 @@ public class Mix : MonoBehaviour
 
             result.transform.localScale = spawnScale;
 
-            crafted = true;
         }
     }
 }
