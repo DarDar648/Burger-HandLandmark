@@ -9,6 +9,10 @@ TagManager:
   - Tomato
   - Onion
   - Patty
+  - Cheese
+  - Lettuce
+  - Grilled
+  - Bun
   layers:
   - Default
   - TransparentFX
