@@ -41,7 +41,7 @@ public class Picking : MonoBehaviour
     IEnumerator ReturnToNormal()
     {
         yield return new WaitForSeconds(0.2f);
-        rend.material.color = Color.white;
+        rend.material.color = Color.green;
         Status.Pick = false;
     }
 }
